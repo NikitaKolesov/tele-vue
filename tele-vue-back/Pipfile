@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+coverage = "*"
+pytest = "*"
+pytest-asyncio = "*"
+black = "==20.8b1"
+
+[packages]
+fastapi = {extras = ["all"],version = "*"}
+passlib = {extras = ["bcrypt"],version = "*"}
+psycopg2 = "*"
+pyjwt = "*"
+sqlalchemy = "*"
+mimesis = "*"
+
+[requires]
+python_version = "3.8"

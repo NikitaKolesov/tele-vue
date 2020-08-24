@@ -1,0 +1,11 @@
+fastapi[all]
+passlib[bcrypt]
+psycopg2
+pyjwt
+sqlalchemy
+mimesis
+
+coverage
+pytest
+pytest-asyncio
+black

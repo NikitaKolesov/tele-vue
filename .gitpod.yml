@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: 'cd tele-vue-front && npm install && pip install -U pip setuptools wheel && cd ../tele-vue-back && pip install -Ur requirements-dev.txt'
+    command: 'echo "TODO: Replace with command to start project"'
+
+vscode:
+  extensions:
+    - octref.vetur@0.26.1:NrU4ZTLY6IF/1G6B/QLuIQ==
